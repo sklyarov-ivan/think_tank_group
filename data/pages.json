@@ -1,0 +1,32 @@
+{
+    "pages":[
+                {
+                    "title":"Home page",
+                    "progress":"30"
+                },
+                {
+                    "title":"About Us",
+                    "progress":"70"
+                },
+                {
+                    "title":"Careers",
+                    "progress":"10"
+                },
+                {
+                    "title":"Products",
+                    "progress":"17"
+                },
+                {
+                    "title":"Clients",
+                    "progress":"52"
+                },
+                {
+                    "title":"Blog",
+                    "progress":"93"
+                },
+                {
+                    "title":"Support",
+                    "progress":"100"
+                }
+            ]
+}
