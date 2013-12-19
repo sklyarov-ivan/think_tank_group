@@ -10,10 +10,9 @@
 <ul class="list-nostyle">
   <li data-foreach-item="items">
     <span class="label" data-bind="item.title"></span>
-    <span class="value" data-bind="item.progress"></span>
-    <div class="progress [small-# large-#] [secondary alert success] [radius round]">
-      <span class="meter" style="width: [1 - 100]%"></span>
-    </div>
+    <span class="value progressbar" >
+      <div data-bind="item.progress" data-bind-style="item.style" ></div>
+    </span>
   </li>
 </ul>
 

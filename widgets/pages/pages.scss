@@ -57,7 +57,24 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   .more-info {
     color: $moreinfo-color;
   }
+  .progressbar {
+    width: 100px;
+    // line-height: 6px;
+    background-color: black;
+    border-radius: 13px; /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    height: 18px;
 
+  }
+  .progressbar > div{
+     background-color: orange;
+     width: attr(data-); /* Adjust with JavaScript */
+     border-radius: 10px;
+    height: 18px;
+    font-size: 0;
+
+    // height: 10px;
+  }
 
 
 }
